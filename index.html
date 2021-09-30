@@ -1,54 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
+<title>My New Home Page In HTML!</title>
 <style>
-html {
-    scroll-behavior: smooth;
-}
-body {
-    background-color: blue;
-} 
-h1 {
-    text-align: center;
-    background: bisque;
-}
-footer {
-    text-align: center;
-    padding: 10px;
-    margin-top: 1vh;
-    background: bisque;
-
-}
+    body {
+        margin: 25px;
+        padding: 10px;
+        border: 1px dotted #BBB;
+    }
+    h1, footer {
+        text-align: center;
+    }
+    footer a, footer a:visited {
+        color: #A50;
+        text-decoration: none;
+        padding: 10px;
+        border: 1px dashed #000;
+    }
+   
+    
 </style>
-<meta content="description" name="Home Page">
-<!--
-2021-09-28: I did a bunch of rearranging of things on your page without
-changing how it renders (this is known as "refactoring" in software
-development). See if you can identify my changes and learn from them. Also,
-as we will talk about in class today, please add validation links to the
-bottom of each page. ~ JE
--->
 </head>
 <body>
-<div><a href="#WALTER">Bottom</a></div> 
+<h1>My New Home Page In HTML!</h1>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor <span style="color: blue;">incididunt</span> ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.  Duis aute irure dolor in <span style="color: aqua;">reprehenderi</span> in voluptate velit esse
+    cillum <span style="color: red;">dolore</span> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt <span style="color: orange;">mollit</span> anim id est laborum.
+    </p>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+<p style="text-decoration: line-through;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+<footer>
 
-
-<h1>My new home page in HTML!</h1>
-
-<button><a href="gdw.html">Second Page</a></button>
-<div>
-<img src="Walter.jpg">
-<a href="https://dogelore.fandom.com/wiki/Walter" target="_blank"><img src="Walter.jpg"></a>
-<iframe width="885" height="498" src="https://www.youtube.com/embed/-L3tcW1nhds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div id="WALTER">
-</div>
-<footer style="text-align: center;">
-	
-    <a href="http://validator.w3.org/check/referer">
-    <strong> HTML </strong> Valid! </a>
-    </footer>
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> Valid! </a> 
+<a href="gdw.html">All Of My Work</a> 
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
 
 </body>
 </html>
