@@ -79,6 +79,21 @@ img, figcaption {
       text-decoration: none;
       color: #4292dd;
   }
+  
+  .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 10vw);
+      grid-gap: 15px;
+  }
+
+  
+
+  
+
+  
+
+  
 
   
 
