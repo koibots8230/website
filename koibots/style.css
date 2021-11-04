@@ -2,14 +2,19 @@
     --orange: #f5720f;
 }
 
+html{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
-    background-color: rgb(54, 53, 53);
+    background-color: rgb(47, 47, 47);
 }
 
 h1 {
-    background-color: #f5720f;
+    background-color: var(--orange);
     margin: 0;
     padding: 1vw;
     color: white;
@@ -52,11 +57,6 @@ li a::after{
     transition: all ease-in-out 250ms;
 }
 
-li:first-child{
-    margin-right: auto;
-    margin-left: 3em;
-}
-
 li a:hover::after{
     width: 60%;
 }
@@ -64,4 +64,56 @@ li a:hover::after{
 li a:hover{
     color:var(--orange);
 
+}
+
+h1::after{
+    content: '';
+    display: block;
+    background-color: white;
+    padding: .1em;
+    border-radius: .08em;
+}
+
+#about{
+    margin-right: 33vw;
+    margin-left: 5vw;
+    width: 33vw;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    padding: 1em;
+    border: 0px;
+    outline: solid;
+    outline-width: .2em;
+    outline-color: var(--orange);
+    border-radius: .2em;
+}
+h2{
+    color: white;
+    margin-right: 33vw;
+    margin-left: 5vw;
+    font-size: 3em;
+}
+
+@media only screen and (max-width: 900px) {
+    #about{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        width: fit-content;
+        font-weight: bold;
+        color: white;
+        font-size: 2em;
+        padding: 1em;
+        border: 0px;
+        outline: solid;
+        outline-width: .2em;
+        outline-color: var(--orange);
+        border-radius: .2em;
+    }
+    h2{
+        color: white;
+        margin-right: 10vw;
+        margin-left: 10vw;
+        font-size: 3em;
+    }
 }
