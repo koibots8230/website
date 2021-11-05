@@ -5,7 +5,6 @@
 html{
     margin: 0;
     padding: 0;
-    height: 3000px;
 }
 
 body {
@@ -103,6 +102,79 @@ img{
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
 
 }
+ 
+div#form{
+    display: block;
+    text-align: center;
+    background-color: var(--orange);
+    margin-right: 40vw;
+    margin-left: 40vw;
+    margin-top: 8vw;
+    padding: 1em;
+    border-radius: .2em;
+    scale: 1.5;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
+}
+
+form{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+textarea{
+    resize: none;
+}
+
+.submit{
+    font-family: inherit;
+    border: none;
+    background-color: white;
+    color: var(--orange);
+    padding: .6em;
+    border-radius: .3em;
+    float: right;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.submit:hover{
+    filter: grayscale(1);
+    background-color: rgb(206, 206, 206);
+}
+
+#name{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+#email{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+#text__area{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+input:focus{
+    outline: 0;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+
 
 @media only screen and (max-width: 900px) {
     #about{
