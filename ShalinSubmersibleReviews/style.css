@@ -25,6 +25,9 @@ main {
 .source {
     font-size: 12px;
 }
+.name {
+    font-size: 18px;
+}
 
 html {
     font-family: 'Inter', sans-serif;
@@ -85,7 +88,7 @@ img, figcaption {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 10vw);
-      grid-gap: 18px;
+      grid-gap: 21px;
   }
 
   .gallery2 {
