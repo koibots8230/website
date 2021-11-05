@@ -176,31 +176,39 @@ textarea:focus{
 
 
 
-@media only screen and (max-width: 900px) {
-    #about{
-        margin-left: 10vw;
-        margin-right: 10vw;
-        width: fit-content;
+@media only screen and (max-width: 1200px) {
+    #about {
+        margin: 0;
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+        width: 85vw;
         font-weight: bold;
         color: white;
         font-size: 2em;
-        padding: 1em;
-        border: 0px;
-        outline: solid;
-        outline-width: .2em;
-        outline-color: var(--orange);
         border-radius: .2em;
+        display: inline-block;
     }
-    h2{
+    h2 {
+        margin-right: 33vw;
+        margin-left: 5vw;
         color: white;
-        margin-right: 10vw;
-        margin-left: 10vw;
         font-size: 3em;
     }
-    img{
+    img {
+        position: inherit;
         display: block;
-        position: absolute;
-        left: 50vw;
-        top: 15vw;   
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    img {
+        position: inherit;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vw;
+        scale: .6;
     }
 }
