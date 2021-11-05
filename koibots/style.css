@@ -5,6 +5,7 @@
 html{
     margin: 0;
     padding: 0;
+    height: 3000px;
 }
 
 body {
@@ -81,18 +82,26 @@ h1::after{
     font-weight: bold;
     color: white;
     font-size: 2em;
-    padding: 1em;
     border: 0px;
-    outline: solid;
-    outline-width: .2em;
-    outline-color: var(--orange);
     border-radius: .2em;
+    display: inline-block;
+
 }
 h2{
     color: white;
     margin-right: 33vw;
     margin-left: 5vw;
     font-size: 3em;
+    display: inline-block;
+}
+
+img{
+    display: inline-block;
+    position: absolute;
+    left: 50vw;
+    top: 15vw;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -115,5 +124,11 @@ h2{
         margin-right: 10vw;
         margin-left: 10vw;
         font-size: 3em;
+    }
+    img{
+        display: block;
+        position: absolute;
+        left: 50vw;
+        top: 15vw;   
     }
 }
