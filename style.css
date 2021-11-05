@@ -1,103 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Kanit&display=swap');
-		
-    html {
-			margin: 2vw;
-			background-color: rgb(29, 29, 29);
-			font-family: 'Kanit', sans-serif;
-		}
+:root{
+    --orange: #f5720f;
+}
 
-	header {
-			background-image: linear-gradient(#930303, #f33e1a);
-			padding: .01vw;
-			border-radius: 2vw;
-		    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-			text-align: center;
-			color: white;
-			font-size: larger;
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    background-color: rgb(47, 47, 47);
+}
+
+h1 {
+    background-color: var(--orange);
+    margin: 0;
+    padding: 1vw;
+    color: white;
+    font-size: 3em;
+}
+
+#navbar {
+    width: 100vw;
+    background-color: rgb(42, 42, 42);
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em 0;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 3em;
+    position: relative;
+    transition: all ease-in-out 250ms;
+}
+
+li a::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.4em;
+    width:0%;
+    background-color:var(--orange);
+    bottom: -.7em;
+    border-radius: .1em;
+    transition: all ease-in-out 250ms;
+}
+
+li a:hover::after{
+    width: 60%;
+}
+
+li a:hover{
+    color:var(--orange);
+
+}
+
+h1::after{
+    content: '';
+    display: block;
+    background-color: white;
+    padding: .1em;
+    border-radius: .08em;
+}
+
+#about{
+    margin-right: 33vw;
+    margin-left: 5vw;
+    width: 33vw;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    border: 0px;
+    border-radius: .2em;
+    display: inline-block;
+
+}
+h2{
+    color: white;
+    margin-right: 33vw;
+    margin-left: 5vw;
+    font-size: 3em;
+    display: inline-block;
+}
+
+img{
+    display: inline-block;
+    position: absolute;
+    left: 50vw;
+    top: 15vw;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
+
+}
+ 
+div#form{
+    display: block;
+    text-align: center;
+    background-color: var(--orange);
+    margin-right: 40vw;
+    margin-left: 40vw;
+    margin-top: 8vw;
+    padding: 1em;
+    border-radius: .2em;
+    scale: 1.5;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
+}
+
+form{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+textarea{
+    resize: none;
+}
+
+.submit{
+    font-family: inherit;
+    border: none;
+    background-color: white;
+    color: var(--orange);
+    padding: .6em;
+    border-radius: .3em;
+    float: right;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.submit:hover{
+    filter: grayscale(1);
+    background-color: rgb(206, 206, 206);
+}
+
+#name{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+#email{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+#text__area{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+input:focus{
+    outline: 0;
+}
+
+textarea:focus{
+    outline: 0;
+}
 
 
-		}
-    .Elements {
-    	background-image: linear-gradient(#f33e1a, #FF773D );
-		color: white;
-		padding: 2vw;
-		border-radius: 1vw;
-		padding-top: .01vw;
-		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-	}
-	.Lists {
-		background-image: linear-gradient(#FF773D, #FFB238 );
-		color: white;
-		padding: 2vw;
-		
-		border-radius: 1vw;
-		padding-top: .01vw;
-		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-	}
-	.Tables {
-		background-image: linear-gradient(#F19143, #FFB238 );
-		color: white;
-		padding: 2vw;
-		
-		border-radius: 1vw;
-		padding-top: .01vw;	
-		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-	}
-	.Links {
-		background-image: linear-gradient(#FFB238, #FABC3C );
-		color: white;
-		padding: 2vw;
-		
-		border-radius: 1vw;
-		padding-top: .01vw;
-		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-	}
-	.Images {
-		background-image: linear-gradient(#FABC3C, #face3c );
-		color: white;
-		padding: 2vw;
-		
-		border-radius: 1vw;
-		padding-top: .01vw;
-		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-	}
-	.SSR {
-		background-image: linear-gradient(#face3c, rgb(255, 208, 0) );
-		color: rgb(255, 255, 255);
-		padding: 2vw;
-		
-		border-radius: 1vw;
-		padding-top: .01vw;
-		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-	}
-	li > a, div > a {
-		text-decoration: none;
-		color: white;
-		font-size: larger;
-	}
-	a:hover {
-		font-weight: bolder;
-	}
-	footer > a {
-		text-decoration: none;
-		color: white;
-	}
-	footer {
-		text-decoration: none;
-		color: white;
-		background-image: linear-gradient(rgb(255, 238, 0), rgb(255, 100, 0));
-		padding: 1vw;
-		border-radius: 1vw;
-		margin-bottom: 2vw;
-		margin-left: 30vw;
-		margin-right: 30vw;
-		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.826));
-	}
-	.heading {
-		text-align: center;
-		color: rgb(255, 255, 255);
-		filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.8));
-		font-size: 28px;
-	}
-	
-	
+
+@media only screen and (max-width: 1200px) {
+    #about {
+        margin: 0;
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+        width: 85vw;
+        font-weight: bold;
+        color: white;
+        font-size: 2em;
+        border-radius: .2em;
+        display: inline-block;
+    }
+    h2 {
+        margin-right: 33vw;
+        margin-left: 5vw;
+        color: white;
+        font-size: 3em;
+    }
+    img {
+        position: inherit;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    img {
+        position: inherit;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vw;
+        scale: .6;
+    }
+}
