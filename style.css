@@ -90,7 +90,7 @@ h2{
     display: inline-block;
 }
 
-img{
+#about__img{
     display: inline-block;
     position: absolute;
     left: 50vw;
@@ -199,7 +199,7 @@ textarea:focus{
         color: white;
         font-size: 2.25em;
     }
-    img {
+    #about__img {
         position: inherit;
         display: block;
         margin-left: auto;
@@ -250,7 +250,7 @@ textarea:focus{
         color: white;
         font-size: 2.25em;
     }
-    img {
+    #about__img {
         position: inherit;
         display: block;
         margin-left: auto;
@@ -291,7 +291,7 @@ textarea:focus{
 }
 
 @media only screen and (max-width: 600px) {
-    img {
+    #about__img {
         position: inherit;
         display: block;
         margin-left: auto;
