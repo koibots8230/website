@@ -120,6 +120,7 @@ form{
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
+    padding: 1em;
     text-align: left;
     color: white;
     font-weight: bold;
@@ -163,6 +164,19 @@ textarea{
     padding: .3em;
     border-radius: .2em;
 }
+#day{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+#time{
+    background-color: white;
+    border: none;
+    padding: .3em;
+    border-radius: .2em;
+}
 
 #text__area{
     background-color: white;
@@ -170,6 +184,8 @@ textarea{
     padding: .3em;
     border-radius: .2em;
 }
+
+
 
 input:focus{
     outline: 0;
@@ -211,8 +227,8 @@ textarea:focus{
         display: block;
         text-align: center;
         background-color: var(--orange);
-        margin-right: 39vw;
-        margin-left: 39vw;
+        margin-right: 25vw;
+        margin-left: 25vw;
         margin-top: 20vh;
         margin-bottom: 18vh;
         padding-bottom: 1vw;
@@ -229,6 +245,13 @@ textarea:focus{
         text-align: left;
         color: white;
         font-weight: bold;
+    }
+    input{
+        width: 45vw;
+    }
+    textarea{
+        resize: none;
+        width: 45vw;
     }
 }
 
@@ -262,8 +285,8 @@ textarea:focus{
         display: block;
         text-align: center;
         background-color: var(--orange);
-        margin-right: 35vw;
-        margin-left: 35vw;
+        margin-right: 25vw;
+        margin-left: 25vw;
         margin-top: 20vh;
         margin-bottom: 18vh;
         padding-bottom: 1vw;
@@ -282,11 +305,11 @@ textarea:focus{
         font-weight: bold;
     }
     input{
-        width: 25vw;
+        width: 44vw;
     }
     textarea{
         resize: none;
-        width: 25vw;
+        width: 44vw;
     }
 }
 
