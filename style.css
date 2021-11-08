@@ -20,12 +20,12 @@ body {
 }
 
 h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Smooth Circulars', sans-serif;
     background-color: var(--orange);
     margin: 0;
     padding: .7vw;
     color: white;
-    font-size: 3.5em;
+    font-size: 2.7em;
     font-weight: 900;
 }
 
