@@ -1,5 +1,7 @@
 :root{
     --orange: #00a1ff;
+    --background: rgb(47, 47, 47);
+    --nav: rgb(42, 42, 42);
 }
 
 html{
@@ -17,7 +19,28 @@ body {
     margin: 0;
     background-color: rgb(47, 47, 47);
     margin-bottom: 8vw;
-    font-family: 200;
+    font-size: 100;
+}
+
+#motors h2 {
+    text-decoration: underline;
+    margin: 0;
+    padding-bottom: 1vh;
+}
+
+#motors {
+    color: white; 
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: larger; 
+}
+
+section {
+    background-color: rgb(44, 43, 43);
+    padding: 0px 20px 20px;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 
 #logo {
@@ -50,6 +73,11 @@ ul{
 
 }
 
+a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
 li a {
     text-decoration: none;
     color: white;
@@ -71,7 +99,7 @@ li a::after{
 }
 
 li a:hover::after{
-    width: 60%;
+    width: 70%;
 }
 
 li a:hover{
@@ -229,6 +257,7 @@ textarea:focus{
         margin-right: auto;
         margin-bottom: 5vw;
         width: 80vw;
+        
     }
     div#form {
         display: block;
@@ -285,8 +314,8 @@ textarea:focus{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 5vw;
-        width: 80vw;
+        margin-bottom: 20vh;
+        width: 90vw;
     }
     div#form {
         display: block;
