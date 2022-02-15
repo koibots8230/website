@@ -1,5 +1,5 @@
 :root{
-    --orange: #00a1ff;
+    --blue: #00a1ff;
     --background: rgb(47, 47, 47);
     --nav: rgb(42, 42, 42);
 }
@@ -22,13 +22,16 @@ body {
     font-size: 100;
 }
 
-#motors h2 {
-    text-decoration: underline;
+section h2 {
     margin: 0;
     padding-bottom: 1vh;
 }
 
-#motors {
+section {
+    background-color: rgb(44, 43, 43);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
     color: white; 
     width: 50vw;
     margin-right: auto;
@@ -36,11 +39,8 @@ body {
     font-size: larger; 
 }
 
-section {
-    background-color: rgb(44, 43, 43);
-    padding: 0px 20px 20px;
-    margin-top: 20px;
-    border-radius: 15px;
+.li_space {
+    margin: 10px;
 }
 
 #logo {
@@ -49,7 +49,7 @@ section {
 
 h1 {
     font-family: 'Smooth Circulars', sans-serif;
-    background-color: var(--orange);
+    background-color: var(--blue);
     margin: 0;
     padding: .7vw;
     color: white;
@@ -74,11 +74,11 @@ ul{
 }
 
 a {
-    color: var(--orange);
+    color: var(--blue);
     text-decoration: none;
 }
 
-li a {
+#navbar a {
     text-decoration: none;
     color: white;
     padding-right: 3em;
@@ -86,24 +86,24 @@ li a {
     transition: all ease-in-out 250ms;
 }
 
-li a::after{
+#navbar a::after{
     content: '';
     position: absolute;
     display: block;
     height: 0.4em;
     width:0%;
-    background-color:var(--orange);
+    background-color:var(--blue);
     bottom: -.7em;
     border-radius: .1em;
     transition: all ease-in-out 250ms;
 }
 
-li a:hover::after{
+#navbar a:hover::after{
     width: 70%;
 }
 
-li a:hover{
-    color:var(--orange);
+#navbar a:hover{
+    color:var(--blue);
 
 }
 
@@ -141,7 +141,7 @@ h2{
 div#form{
     display: block;
     text-align: center;
-    background-color: var(--orange);
+    background-color: var(--blue);
     margin-right: 40vw;
     margin-left: 40vw;
     margin-top: 20vh;
@@ -175,7 +175,7 @@ textarea{
     font-family: inherit;
     border: none;
     background-color: white;
-    color: var(--orange);
+    color: var(--blue);
     padding: .6em;
     border-radius: .3em;
     float: right;
@@ -262,7 +262,7 @@ textarea:focus{
     div#form {
         display: block;
         text-align: center;
-        background-color: var(--orange);
+        background-color: var(--blue);
         margin-right: 25vw;
         margin-left: 25vw;
         margin-top: 20vh;
@@ -320,7 +320,7 @@ textarea:focus{
     div#form {
         display: block;
         text-align: center;
-        background-color: var(--orange);
+        background-color: var(--blue);
         margin-right: 25vw;
         margin-left: 25vw;
         margin-top: 20vh;
@@ -379,7 +379,7 @@ textarea:focus{
     div#form {
         display: block;
         text-align: center;
-        background-color: var(--orange);
+        background-color: var(--blue);
         margin-right: 20vw;
         margin-left: 20vw;
         margin-top: 20vh;
