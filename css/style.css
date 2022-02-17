@@ -1,5 +1,6 @@
 :root{
     --blue: #00a1ff;
+    --orange: #ff5e00;
     --background: rgb(47, 47, 47);
     --nav: rgb(42, 42, 42);
 }
@@ -70,6 +71,20 @@ section {
     width:50px;
 }
 
+.noline {
+    text-decoration: none;
+    color: white;
+    transition-property: all;
+    transition-duration: 200ms;
+
+
+}
+
+button:hover > .noline{
+    color: var(--blue);
+
+}
+
 h1 {
     font-family: 'Smooth Circulars', sans-serif;
     background-color: var(--blue);
@@ -96,9 +111,35 @@ ul{
 
 }
 
+#skip {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--blue);
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-delay: 0s;
+    box-shadow: inset 0px 0px 0px #000;
+}
+
+button:hover {
+    background-color: var(--background);
+    box-shadow: inset 0px 0px 15px #000;
+}
+
 a {
     color: var(--blue);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #navbar a {
