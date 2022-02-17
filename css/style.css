@@ -39,6 +39,29 @@ section {
     font-size: larger; 
 }
 
+.center_img {
+    display: block;
+    margin: 10px auto 10px auto;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.border_box {
+    border: 2px solid; 
+    padding: 10px;
+    margin: 30px;
+}
+
 .li_space {
     margin: 10px;
 }
