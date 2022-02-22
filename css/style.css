@@ -8,6 +8,7 @@
 html{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -29,15 +30,17 @@ section h2 {
 }
 
 section {
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(39, 39, 39);
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 15px;
     color: white; 
     width: 50vw;
     margin-right: auto;
     margin-left: auto;
     font-size: larger; 
+   /* box-shadow: 0 0 40px rgb(15, 15, 15); */
 }
 
 .center_img {
@@ -76,14 +79,20 @@ section {
     color: white;
     transition-property: all;
     transition-duration: 200ms;
-
-
+    display: inline-block;
 }
 
-button:hover > .noline{
+button:hover {
+    cursor: pointer;
+    color: var(--blue);
+}
+
+a:hover{
     color: var(--blue);
 
 }
+
+
 
 h1 {
     font-family: 'Smooth Circulars', sans-serif;
@@ -97,7 +106,7 @@ h1 {
 
 #navbar {
     width: 100vw;
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(41, 40, 40);
     font-weight: bold;
 }
 
@@ -121,6 +130,7 @@ button {
     border-radius: 2px;
     padding: 10px;
     margin: 10px;
+    color: white;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
