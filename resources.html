@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/Smooth Circulars.otf">
     <title>Contact</title>
     <link rel="icon" href="images/favicon_blue_k.png" type="image">
 </head>
@@ -19,137 +20,158 @@
         <ul id="menuBar"></ul>
     </div>
     <script src="js/nav_bar.js"></script>
-    <h2 id="resources" style="font-size: 72px; text-align: center; display:block;">Resources</h2>
-    <section id="skip" style="display:fixed; margin-top:0; margin-bottom:0; ">  
-        <h2>Skip to:</h2> 
-            <a class="noline" href="#task1"><button class="skip">OnShape Task 1</button></a>
-            <a class="noline" href="#onshape"><button class="skip">OnShape</button></a>
-            <a class="noline" href="#fusion360"><button class="skip">Fusion 360</button></a>
-    </section>
-    <section id="motors" style="margin-top: 20px;">
-        <h2>Motors</h2>
-        <br>
-        Your whole robot depends on these. You need to know a lot about them, but first and foremost you need to know if they have the power to do what you want and then how to attach both the motor and the shaft to whatever it is you want to power.
-        <br>
-        <br>
-        <div class="border_box">
-            A .pdf <a href="https://www.chiefdelphi.com/uploads/default/original/3X/d/2/d2495ff57e402e93bb479171750bb6b05ec8e594.pdf">download resource</a> from Chief Delphi. You might be able to stop with just reading this 25 page document, which has lots of good links at the bottom.
-        </div>
-        <br>
-        A good frame of reference is this: everything in your car runs off of 12 volts, as does your robot. So all the things that move in your car are done with 12v motors. This includes mirrors, sunroofs, windows, doors, seats, windshield wipers, … etc.
-        <img src="images/image2.png" alt="Gearbox" style="width: 20vw; float:left; padding-top:1vh; padding-right: 2vw;">
-        <br>
-        <br>
-        <span>
-            Gearboxes will take what is typically an extremely fast motor (18,000 rpm) with low torque, and change it to a more useful output of speed and torque.These typically fall into two broad categories, planetary gearboxes and open gearboxes. Planetary gear sets screw directly to the motor making them very convenient; they are also easy to get just the right gear ratio. Some gearboxes have shifting capabilities as well, typically used for drivetrains where high speed across the field and low torque or precise maneuvering are needed at the destination.
-        </span>  
-        <img src="images/image1.png" alt="gearbox_breakdown" style="width: 50vw; border-radius: 5px;"> 
-        <br>
-        <br>
-        This image above is a Versa planetary gearbox. The motor would be mounted to the right and the output shaft on the left. Which brings up the next issue with motors, how to attach to the output shaft and how to mount the motor?
-        <h3>Extra Resources</h3>
-        <a href="https://motors.vex.com/?q=&locale.name=English">VEX Motors:</a> Link takes you to power curves, showing speeds & torques
-        <br>
-        <a href="https://www.andymark.com/categories/gearboxes">AndyMark:</a> On this page are links to scads of gearbox products and data
-        <br>
-        <a href="https://www.vexrobotics.com/pro/motion/gearboxes?q=&locale.name=English">VEX:</a> Known for their Versa Planetary gearbox, along with other gearboxes
-    </section>
-    <section id="onshape">
-        <h2>Getting an Onshape Account and Shared Folder</h2>
-        It’s the 2021-2022 competition and we’ll be using Onshape as our team CAD platform. Below are instructions for getting registered with Onshape and using the shared Team documents.
-        <ol>
-            <li><a href="https://www.onshape.com/en/sign-up">Go here to register.</a> THE FOLLOWING ARE IMPORTANT:</li>
-            <ol type="a" style="margin: 5px;">
-                <li class="li_space">Use your <strong>REAL NAME.</strong> Capitalize first and last name</li>
-                <li class="li_space">Use your <strong>PERSONAL EMAIL </strong>address (<strong>NOT</strong> your school email address)</li>
-                <li class="li_space">You want an <strong>EDUCATIONAL ACCOUNT</strong></li>
-                <li class="li_space">Only give out personal information that you are comfortable with. You are all minors, so respond accordingly</li>
-            </ol>
-            <li>Send Mr. Nystrom an email with your name and the email you registered with so he can add you.</li>
-            <ol type="a">
-                <li class="li_space">Consider emailing from your school account please</li>
-                <li class="li_space">Add a note to the email so he knows what this is all about</li>
-                <li class="li_space"><a href="mailto:steve.nystrom@apsva.us">steve.nystrom@apsva.us</a></li>
-            </ol>
-            <li>Once invited, you should now see the folder 8230 KoiBots. This is where you will do any work that you want shared with the team.</li>
-        </ol>
-        <img style="width: 50vw;" src="images/onshape.png" alt="onshape">
-        <ol start="4">
-            <li>As evidence that you are interested in CAD, proceed to the first task.</li>
-        </ol>
-    </section>
-    <section id="task1">
-        <h2>First Task in learning Onshape for Robotics</h2>
-        <br><br>
-        We don’t know where you are with CAD, so as a start with this:
-        <br><br>
-        Use the resources provided by Onshape to learn what you don’t know.
-        <img class="center_img" src="images/image3.png" alt="learning center">
-        <img style="width: 50vw;" src="images/image5.png" alt="learning pathways" class="center_img">
-        You also have access to Mr. Nystrom who can answer most of your questions the fastest. But that presumes he’s available. So always be able to teach yourself what you don’t know.
-        <div class="border_box">Do your CAD in our Onshape team folder called TRAINING. Name the file like mine: 8020 Wire Management: Nystrom</div>
-        <br>
-        <h3>Task 1</h3>
-        <p><img style="float: right;" src="images/image4.jpg" alt="8020">Aluminum gets extruded in lots of unique profile shapes, one of which is called 8020 and looks like this. It is used a lot in robotics because it’s easy to put together and attach things to. It’s also very strong for its weight. <p class="border_box" style="margin: 0px 250px 0px 0px;">Your objective is to make a 3D printed part<br> that will help the electricians on the team with wire management by fitting into the grooves of the 8020.</p> </p>
-        <h3>Suggestions:</h3>
-        <ol>
-            <li class="li_space">Go to <a href="https://www.mcmaster.com/structural-framing/framing-type~t-slot-1/t-slotted-framing-rails/">McMaster Carr</a> and download/import the CAD file into your Onshape file. <br> Here’s a video showing how to <a href="https://watch.screencastify.com/v/6T5eCG3vEiwA05t7xX7s">Import from McMaster Carr into Onshape</a>.</li>
-            <li class="li_space">Do an Image search online to find possibilities. I just typed in ‘8020 cable management’. I encourage you to be unique … but honestly in most cases the goal is to just ‘get the job done’, so duplicating the work of others is encouraged because it ‘gets the job done’ the fastest.</li>
-        </ol>
-        <div class="row">
-            <div class="column">
-                <img style="width: 25vw;" src="images/image1.jpg" alt="example">
+    <h2 id="resources" style="font-size: 72px; text-align: center; display:block; margin-right:auto; margin-left:auto;">Resources</h2>
+    <button type="button"  class="collapsible">Motors</button>
+        <section id="motors" class="content">
+            <h2>Motors</h2>
+            <br>
+            Your whole robot depends on these. You need to know a lot about them, but first and foremost you need to know if they have the power to do what you want and then how to attach both the motor and the shaft to whatever it is you want to power.
+            <br>
+            <br>
+            <div class="border_box">
+                A .pdf <a href="https://www.chiefdelphi.com/uploads/default/original/3X/d/2/d2495ff57e402e93bb479171750bb6b05ec8e594.pdf">download resource</a> from Chief Delphi. You might be able to stop with just reading this 25 page document, which has lots of good links at the bottom.
             </div>
-            <div class="column">
-                <img style="width: 25vw;" src="images/image2.jpg" alt="example">
-            </div>
-        </div>
-        <ol start="3">
-            <li>
-                Before starting, watch all 5 tutorial videos in a Shared Drive: <a href="https://drive.google.com/drive/folders/1XnGahxtAcQYcPNrLpBl0Q76B0dp6GZTj?usp=sharing">CAD Getting Started</a>
-            </li>
-        </ol>
-    </section>
-    <section id="fusion360">
-        <h2>Getting an Autodesk Account for Fusion360 and Shared Folder</h2>
-        <br><br>
-        It’s the 2021-2022 competition and we’ll be using Fusion360 to generate G-code to run the CNC mill. Below are instructions for getting registered with Autodesk and using the shared Team documents.
-        <img class="center_img" src="images/fusion-360-logo-freelogovectors.net_.jpeg" alt="fusion360 logo" style="background-color: white; width: 50vw;">
-        <br><br>
-        DO NOT DOWNLOAD SOFTWARE UNTIL STEP 3.
-        <br><br>
-        <ol>
-            <li><a href="https://accounts.autodesk.com/register">Go here to register</a>. THE FOLLOWING ARE IMPORTANT:
-                <ol type="a">
-                    <li class="li_space">Use your <strong>REAL NAME</strong>. Capitalize first and last name</li>
-                    <li class="li_space">Use your <strong>PERSONAL EMAIL</strong> address (<strong>NOT</strong> your school email address)</li>
-                    <li class="li_space">If an option, you want an <strong>EDUCATIONAL ACCOUNT</strong></li>
-                    <li class="li_space">Autodesk uses 2-Factor authentication. Choose phone or email; whichever you have access too while at school. You’ll need it every time you start up Fusion.</li>
-                    <li class="li_space">Only give out personal information that you are comfortable with. You are all minors, so respond accordingly.</li>
+            <br>
+            A good frame of reference is this: everything in your car runs off of 12 volts, as does your robot. So all the things that move in your car are done with 12v motors. This includes mirrors, sunroofs, windows, doors, seats, windshield wipers, … etc.
+            <img src="images/image2.png" alt="Gearbox" style="width: 20vw; float:left; padding-top:1vh; padding-right: 2vw;">
+            <br>
+            <br>
+            <span>
+                Gearboxes will take what is typically an extremely fast motor (18,000 rpm) with low torque, and change it to a more useful output of speed and torque.These typically fall into two broad categories, planetary gearboxes and open gearboxes. Planetary gear sets screw directly to the motor making them very convenient; they are also easy to get just the right gear ratio. Some gearboxes have shifting capabilities as well, typically used for drivetrains where high speed across the field and low torque or precise maneuvering are needed at the destination.
+            </span>  
+            <img src="images/image1.png" alt="gearbox_breakdown" style="width: 50vw; border-radius: 5px;"> 
+            <br>
+            <br>
+            This image above is a Versa planetary gearbox. The motor would be mounted to the right and the output shaft on the left. Which brings up the next issue with motors, how to attach to the output shaft and how to mount the motor?
+            <h3>Extra Resources</h3>
+            <a href="https://motors.vex.com/?q=&locale.name=English">VEX Motors:</a> Link takes you to power curves, showing speeds & torques
+            <br>
+            <a href="https://www.andymark.com/categories/gearboxes">AndyMark:</a> On this page are links to scads of gearbox products and data
+            <br>
+            <a href="https://www.vexrobotics.com/pro/motion/gearboxes?q=&locale.name=English">VEX:</a> Known for their Versa Planetary gearbox, along with other gearboxes
+        </section>
+    <button type="button"  class="collapsible">Getting an Onshape Account and Shared Folder</button>
+        <section id="onshape" class="content">
+            <h2>Getting an Onshape Account and Shared Folder</h2>
+            It’s the 2021-2022 competition and we’ll be using Onshape as our team CAD platform. Below are instructions for getting registered with Onshape and using the shared Team documents.
+            <ol>
+                <li><a href="https://www.onshape.com/en/sign-up">Go here to register.</a> THE FOLLOWING ARE IMPORTANT:</li>
+                <ol type="a" style="margin: 5px;">
+                    <li class="li_space">Use your <strong>REAL NAME.</strong> Capitalize first and last name</li>
+                    <li class="li_space">Use your <strong>PERSONAL EMAIL </strong>address (<strong>NOT</strong> your school email address)</li>
+                    <li class="li_space">You want an <strong>EDUCATIONAL ACCOUNT</strong></li>
+                    <li class="li_space">Only give out personal information that you are comfortable with. You are all minors, so respond accordingly</li>
                 </ol>
-                <div>
-                    <img src="images/account.png" alt="account" style="float: right; margin: 10px ">
-                <li><strong style="text-decoration: underline;">Send Mr. Nystrom an email</strong> with your name and the email you registered with so he can add you to his CAD class.
+                <li>Send Mr. Nystrom an email with your name and the email you registered with so he can add you.</li>
                 <ol type="a">
-                    <li class="li_space">Consider emailing from your school account please.</li>
-                    <li class="li_space">Add a note to the email so he knows what this is all about.</li>
+                    <li class="li_space">Consider emailing from your school account please</li>
+                    <li class="li_space">Add a note to the email so he knows what this is all about</li>
                     <li class="li_space"><a href="mailto:steve.nystrom@apsva.us">steve.nystrom@apsva.us</a></li>
                 </ol>
-            <li>Mr. Nystrom will then add you to his class.
-                <ol type="a">
-                    <li class="li_space">In doing so, you will be invited to download the software.</li>
-                    <li class="li_space">Go online and sign into your Autodesk account</li>
-                    <li class="li_space">Under your icon, choose Products and Services. From here you will have the option to download Fusion.</li>
-                    <li class="li_space">The rest should be self explanatory.</li>
-                </ol>
-            </li>
-            </div>    
-            </li>
-            </li>
-        </ol>
-    </section>
-    <section>
+                <li>Once invited, you should now see the folder 8230 KoiBots. This is where you will do any work that you want shared with the team.</li>
+            </ol>
+            <img style="width: 50vw;" src="images/onshape.png" alt="onshape">
+            <ol start="4">
+                <li>As evidence that you are interested in CAD, proceed to the first task.</li>
+            </ol>
+        </section>
+    <button type="button"  class="collapsible">First Task in learning Onshape for Robotics</button>
+        <section id="task1" class="content">
+            <h2>First Task in learning Onshape for Robotics</h2>
+            <br><br>
+            We don’t know where you are with CAD, so as a start with this:
+            <br><br>
+            Use the resources provided by Onshape to learn what you don’t know.
+            <img class="center_img" src="images/image3.png" alt="learning center">
+            <img style="width: 50vw;" src="images/image5.png" alt="learning pathways" class="center_img">
+            You also have access to Mr. Nystrom who can answer most of your questions the fastest. But that presumes he’s available. So always be able to teach yourself what you don’t know.
+            <div class="border_box">Do your CAD in our Onshape team folder called TRAINING. Name the file like mine: 8020 Wire Management: Nystrom</div>
+            <br>
+            <h3>Task 1</h3>
+            <p><img style="float: right;" src="images/image4.jpg" alt="8020">Aluminum gets extruded in lots of unique profile shapes, one of which is called 8020 and looks like this. It is used a lot in robotics because it’s easy to put together and attach things to. It’s also very strong for its weight. <p class="border_box" style="margin: 0px 250px 0px 0px;">Your objective is to make a 3D printed part<br> that will help the electricians on the team with wire management by fitting into the grooves of the 8020.</p> </p>
+            <h3>Suggestions:</h3>
+            <ol>
+                <li class="li_space">Go to <a href="https://www.mcmaster.com/structural-framing/framing-type~t-slot-1/t-slotted-framing-rails/">McMaster Carr</a> and download/import the CAD file into your Onshape file. <br> Here’s a video showing how to <a href="https://watch.screencastify.com/v/6T5eCG3vEiwA05t7xX7s">Import from McMaster Carr into Onshape</a>.</li>
+                <li class="li_space">Do an Image search online to find possibilities. I just typed in ‘8020 cable management’. I encourage you to be unique … but honestly in most cases the goal is to just ‘get the job done’, so duplicating the work of others is encouraged because it ‘gets the job done’ the fastest.</li>
+            </ol>
+            <div class="row">
+                <div class="column">
+                    <img style="width: 25vw;" src="images/image1.jpg" alt="example">
+                </div>
+                <div class="column">
+                    <img style="width: 25vw;" src="images/image2.jpg" alt="example">
+                </div>
+            </div>
+            <ol start="3">
+                <li>
+                    Before starting, watch all 5 tutorial videos in a Shared Drive: <a href="https://drive.google.com/drive/folders/1XnGahxtAcQYcPNrLpBl0Q76B0dp6GZTj?usp=sharing">CAD Getting Started</a>
+                </li>
+            </ol>
+        </section>
+    <button type="button"  class="collapsible">Getting an Autodesk Account for Fusion360</button>
+        <section id="fusion360" class="content">
+            <h2>Getting an Autodesk Account for Fusion360 and Shared Folder</h2>
+            <br><br>
+            It’s the 2021-2022 competition and we’ll be using Fusion360 to generate G-code to run the CNC mill. Below are instructions for getting registered with Autodesk and using the shared Team documents.
+            <img class="center_img" src="images/fusion-360-logo-freelogovectors.net_.jpeg" alt="fusion360 logo" style="background-color: white; width: 50vw;">
+            <br><br>
+            DO NOT DOWNLOAD SOFTWARE UNTIL STEP 3.
+            <br><br>
+            <ol>
+                <li><a href="https://accounts.autodesk.com/register">Go here to register</a>. THE FOLLOWING ARE IMPORTANT:
+                    <ol type="a">
+                        <li class="li_space">Use your <strong>REAL NAME</strong>. Capitalize first and last name</li>
+                        <li class="li_space">Use your <strong>PERSONAL EMAIL</strong> address (<strong>NOT</strong> your school email address)</li>
+                        <li class="li_space">If an option, you want an <strong>EDUCATIONAL ACCOUNT</strong></li>
+                        <li class="li_space">Autodesk uses 2-Factor authentication. Choose phone or email; whichever you have access too while at school. You’ll need it every time you start up Fusion.</li>
+                        <li class="li_space">Only give out personal information that you are comfortable with. You are all minors, so respond accordingly.</li>
+                    </ol>
+                    <div>
+                        <img src="images/account.png" alt="account" style="float: right; margin: 10px ">
+                    <li><strong style="text-decoration: underline;">Send Mr. Nystrom an email</strong> with your name and the email you registered with so he can add you to his CAD class.
+                    <ol type="a">
+                        <li class="li_space">Consider emailing from your school account please.</li>
+                        <li class="li_space">Add a note to the email so he knows what this is all about.</li>
+                        <li class="li_space"><a href="mailto:steve.nystrom@apsva.us">steve.nystrom@apsva.us</a></li>
+                    </ol>
+                <li>Mr. Nystrom will then add you to his class.
+                    <ol type="a">
+                        <li class="li_space">In doing so, you will be invited to download the software.</li>
+                        <li class="li_space">Go online and sign into your Autodesk account</li>
+                        <li class="li_space">Under your icon, choose Products and Services. From here you will have the option to download Fusion.</li>
+                        <li class="li_space">The rest should be self explanatory.</li>
+                    </ol>
+                </li>
+                </div>    
+                </li>
+                </li>
+            </ol>
+        </section>
+    <button type="button"  class="collapsible">Making Hex Pulley from STEP file</button>
+        <section id="hex_pulley" class="content">
+            <h2>Making Hex Pulley from STEP file</h2>
+            <video controls="controls" src="videos/Making a Hex Pulley from a STEP file.mp4"></video>
+        </section>
+    <button type="button"  class="collapsible">CNC Errors</button>
+        <section id="cnc_errors" class="content">
+            <h2>CNC Errors</h2>
+            <video controls="controls" src="videos/CNC errors Sat Jan 23.m4v"></video>
+        </section>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
 
-    </section>
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+            } 
+        </script>
 </body>
 </html>

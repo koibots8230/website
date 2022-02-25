@@ -13,7 +13,12 @@ html{
 
 @font-face {
     font-family: 'Smooth Circulars', sans-serif;
-    src: url(../fonts/Smooth\ Circulars.otf);
+    src: url(/fonts/Smooth\ Circulars.otf);
+}
+
+@font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    src: url(/fonts/JosefinSans-Regular.ttf);
 }
 
 body {
@@ -21,7 +26,7 @@ body {
     margin: 0;
     background-color: rgb(47, 47, 47);
     margin-bottom: 8vw;
-    font-size: 100;
+
 }
 
 section h2 {
@@ -31,12 +36,12 @@ section h2 {
 
 section {
     background-color: rgb(39, 39, 39);
-    padding: 20px;
+    padding: 20px;/*
     margin-top: 100px;
-    margin-bottom: 100px;
     border-radius: 15px;
+    margin-bottom: 100px; */
     color: white; 
-    width: 50vw;
+    width: 55vw;
     margin-right: auto;
     margin-left: auto;
     font-size: larger; 
@@ -47,6 +52,13 @@ section {
     display: block;
     margin: 10px auto 10px auto;
     
+}
+
+video {
+    width: 50vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .column {
@@ -84,7 +96,6 @@ section {
 
 button:hover {
     cursor: pointer;
-    color: var(--blue);
 }
 
 a:hover{
@@ -110,7 +121,7 @@ h1 {
     font-weight: bold;
 }
 
-ul{
+#menuBar{
     list-style: none;
     margin: 0;
     display: flex;
@@ -119,17 +130,44 @@ ul{
     padding: 1em 0;
 
 }
+.collapsible {
 
-#skip {
-    display: flex;
-    align-items: center;
-}
+    background-color: var(--blue);
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    width: 57.79vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: larger; 
+    border-radius: 0;
+    margin-top: 50px;
+
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    width: 55vw;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: none;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  } 
+
+ p{
+     padding: 0 20px;
+ } 
+
 
 button {
     border: none;
     border-radius: 2px;
-    padding: 10px;
-    margin: 10px;
     color: white;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
@@ -140,11 +178,6 @@ button {
     transition-duration: 200ms;
     transition-delay: 0s;
     box-shadow: inset 0px 0px 0px #000;
-}
-
-button:hover {
-    background-color: var(--background);
-    box-shadow: inset 0px 0px 15px #000;
 }
 
 a {
@@ -184,9 +217,11 @@ a {
 #about{
     margin-right: 33vw;
     margin-left: 5vw;
-    width: 33vw;
+    padding: 0;
+    line-height: 1.2em;
+    width: 40vw;
     color: white;
-    font-size: 2em;
+    font-size: 1.7em;
     border: 0px;
     border-radius: .2em;
     display: inline-block;
