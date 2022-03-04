@@ -36,6 +36,7 @@ section h2 {
     padding-bottom: 1vh;
 }
 
+
 section {
     background-color: rgb(39, 39, 39);
     padding: 20px;/*
@@ -175,7 +176,7 @@ h1 {
     padding: 19px;
     width: 100vw;
     max-width: 100%;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
  }
 
@@ -231,6 +232,7 @@ a {
 #about{
     margin-right: 33vw;
     margin-left: 5vw;
+    margin-bottom: 50px;
     padding: 0;
     line-height: 1.2em;
     width: 40vw;

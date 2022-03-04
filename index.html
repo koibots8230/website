@@ -39,25 +39,26 @@
     <img class="mySlides" id="about__img" src="images/IMG_3814.JPG" alt="Team Photo">
 
     </div>
-    <script>
-    var slideIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > x.length) {slideIndex = 1}
-        x[slideIndex-1].style.display = "block";
-        setTimeout(carousel, 3000); // Change image every 3 seconds
-    }
-    </script>
-    <script src="js/nav_bar.js"></script>
+    <div class="spacer"></div>
     <footer>
         <a href="https://www.instagram.com/koibots/">Instagram</a> | <a href="mailto:acckoibots8230@gmail.com">acckoibots8230@gmail.com</a> 
     </footer>
+    <script src="js/nav_bar.js"></script>
+    <script>
+        var slideIndex = 0;
+        carousel();
+    
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+        }
+        </script>
 </body>
 </html>
