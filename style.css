@@ -1,0 +1,159 @@
+#abt-accordion .accordion-panel {
+  flex: 1;
+  cursor: pointer;
+  transition: flex 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+#abt-accordion .panel-content {
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#abt-accordion .image-accordion-container .accordion-panel:hover {
+  flex: 4;
+}
+
+#abt-accordion .accordion-panel:hover .panel-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.15s;
+}
+
+/*body{
+		background-image: linear-gradient(to bottom, #9059BB, #22519F);
+	}
+	*/
+
+hr {
+  border: 2px solid #22519F;
+  margin: auto;
+  width: 80%;
+  opacity: 70%;
+}
+
+/*      PAST SEASONS        */
+.pointer {
+    cursor: pointer;
+}
+
+
+body{
+    background-color: white;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #01013f;
+}
+
+@font-face {
+    font-family: 'smooth-circulars';
+    src: url('fonts/smoothCirculars.otf');
+}
+
+h1, h2{
+    font-family: 'smooth-circulars', sans-serif;
+}
+
+/*           BUTTONS            */
+.info-button{
+    margin-top: 260px;
+}
+
+.btn-custom {
+  background-color: #FF9645;
+  color: #ffffff;
+}
+
+.btn-custom:hover {
+  background-color: #9059BB;
+  color: white;
+}
+
+.btn-outline-info{
+    --bs-btn-disabled-border-color: #38B6FF;
+    --bs-btn-color: #38B6FF;
+    --bs-btn-border-color: #38B6FF;
+    --bs-btn-hover-bg: #38B6FF;
+    --bs-btn-hover-border-color: #38B6FF;
+    --bs-btn-active-bg: #38B6FF;
+    --bs-btn-active-border-color: #38B6FF;
+    --bs-btn-disabled-color: #38B6FF;
+}
+
+/*           NAVBAR            */
+.nav-custom{
+    background-color: #9059BB !important;
+}
+
+.nav-custom .navbar-brand {
+    color: white;
+    font-family: 'smooth-circulars', sans-serif;
+}
+
+.nav-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #38B6FF;
+}
+
+
+/*           FOOTER            */
+.footer-custom{
+    background-color: #22519F;
+    color: white;
+}
+
+.footer-custom a{
+    color: white;
+}
+
+/*           MISSON/VISION CARDS            */
+.mision-card{
+    background-color: #FF9645 !important;
+    color: white;
+}
+
+.vision-card{
+    background-color: #9059BB !important;
+    color: white;
+}
+
+/*           QEUSTIONS            */
+.qustions-card{
+    background-color: #38B6FF !important;
+    color: white !important;
+    border-color: #22519F;
+    --bs-card-border-color: #22519F;
+}
+
+.vr{
+    background-color: #22519F;
+    width: 3px;
+    opacity: 1;
+}
+
+/*          CAROUSEL               */
+.carousel-inner img {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.crab-card{
+    background-color: transparent;
+    border: 0;
+    color: #01013f;
+}
+
+.text-body-secondary{
+    color: rgba(1, 1, 63, 0.75) !important;
+}
+
+.crab-card .card-title{
+    color: #01013f;
+}

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="version" content="1.0">
+    <title>Past Seasons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../site.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #003459;
+        }
+    </style>
+</head>
+
+<body>
+<!--                                 NAVBAR                                                -->
+<nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary nav-custom">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html" style="font-size: 30px;">
+            <img src="../Images/logo.png" alt="Logo" width="65" height="59" class="d-inline-block align-text-top">
+            KoiBots
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../aboutus/abtus.html" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item current" href="../aboutus/abtus.html">About Us</a></li>
+                        <li><a class="dropdown-item" href="../aboutus/people.html">Meet The Fish!</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../aboutus/outreach.html">Outreach Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../aboutus/robots.html">Past Seasons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../sponsors.html">Sponsors</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../fundrasing/fundraise.html" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Support Us
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../fundrasing/fundraise.html">Fundraising</a></li>
+                        <li><a class="dropdown-item" href="../fundrasing/fallspringfund.html">Fall/Spring
+                                Fundraiser</a></li>
+                        <li><a class="dropdown-item" href="../fundrasing/mentorus.html">Mentor Us</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contactus/contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!--            HERO                     -->
+    <div class="position-relative text-white text-center">
+        <img class="img-fluid w-100" src="../Images/pastseasons.png" alt="Past Seasons Photo">
+        <div class="position-absolute top-50 start-50 translate-middle w-100 px-3" style="margin-top: -60px;">
+            <h1 class="fw-bold display-2">Past Seasons</h1>
+        </div>
+    </div>
+
+    <!-- ROBOTS -->
+    <div class="container my-5">
+        <h2 class="mb-5 text-center text-white">Click on a robot to learn more!</h2>
+
+        <div class="row text-center justify-content-center mb-5">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="d-flex flex-column align-items-center position-relative">
+                    <img class="pointer img-fluid" data-bs-toggle="modal" data-bs-target="#sailfishcard" src="../Images/2020robotpic.png" alt="The Robot for 2020" style="height: 250px;">
+                    <button type="button" class="btn btn-outline-info info-button position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#sailfishcard">Info</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="d-flex flex-column align-items-center position-relative">
+                    <img class="pointer img-fluid" data-bs-toggle="modal" data-bs-target="#sailfishcard" src="../Images/2022robotpic.JPG" alt="The Robot for 2022" style="height: 250px;">
+                    <button type="button" class="btn btn-outline-info info-button position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#sailfishcard">Info</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="d-flex flex-column align-items-center position-relative">
+                    <img class="pointer img-fluid" data-bs-toggle="modal" data-bs-target="#cuttlefishcard" src="../Images/2023robotpic.jpg" alt="The Robot for 2023" style="height: 250px;">
+                    <button type="button" class="btn btn-outline-info info-button position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#sailfishcard">Info</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center justify-content-center">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="d-flex flex-column align-items-center position-relative">
+                    <img class="pointer img-fluid" data-bs-toggle="modal" data-bs-target="#anglerfishcard" src="../Images/2024robotpic.png" alt="The Robot for 2024" style="height: 250px;">
+                    <img class="d-md-block position-absolute z-n1" src="../Images/seaweed.png" alt="Seaweed"  style="right: -70px; top: -70px;">
+                    <button type="button" class="btn btn-outline-info info-button position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#sailfishcard">Info</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="d-flex flex-column align-items-center position-relative">
+                    <img class="pointer img-fluid" data-bs-toggle="modal" data-bs-target="#sailfishcard" src="../Images/2025robotpic.jpg" alt="The Robot for 2025" style="height: 250px;">
+                    <button type="button" class="btn btn-outline-info info-button position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#sailfishcard">Info</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="d-flex flex-column align-items-center position-relative">
+                    <img class="pointer img-fluid" data-bs-toggle="modal" data-bs-target="#leprawncard" src="../Images/2026robotpic.jpg" alt="The Robot for 2026" style="height: 250px;">
+                    <button type="button" class="btn btn-outline-info info-button position-absolute top-0 start-50 translate-middle-x" data-bs-toggle="modal" data-bs-target="#leprawncard">Info</button>
+                    <img class="d-md-block position-absolute z-n1" src="../Images/seaweed.png" alt="Seaweed"  style="right: -80px; top: -70px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALS -->
+    <div class="modal fade" id="sailfishcard" tabindex="-1" aria-labelledby="sailfishcard" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content" style="background-color: transparent; border: 0;">
+          <div class="modal-body">
+            <img class="" src="../Images/sailfishcard.png" alt="sailfishcard" style="height: 650px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="leprawncard" tabindex="-1" aria-labelledby="leprawncard" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content" style="background-color: transparent; border: 0;">
+          <div class="modal-body">
+            <img class="" src="../Images/leprawncard.png" alt="leprawncard" style="height: 650px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="anglerfishcard" tabindex="-1" aria-labelledby="anglerfishcard" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content" style="background-color: transparent; border: 0;">
+          <div class="modal-body">
+            <img class="" src="../Images/anglerfishcard.png" alt="anglerfishcard" style="height: 650px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="cuttlefishcard" tabindex="-1" aria-labelledby="cuttlefishcard" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content" style="background-color: transparent; border: 0;">
+          <div class="modal-body">
+            <img class="" src="../Images/cuttlefishcard.png" alt="cuttlefishcard" style="height: 650px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-custom text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0 d-flex my-4">
+                    <img src="../Images/logo.png" height="125" alt="Logo"
+                        loading="lazy">
+                    <div>
+                        <h5 class="fw-bold" style="margin-left: 15px; margin-top: 5px;">Grace Hopper Center</h5>
+                        <p style="margin-left: 15px; margin-top: 5px;">800 S. Walter Reed Drive, <br> Arlington, VA 22204</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-md-end my-4">
+                    <div class="fw-bold"><h5>Contact Us</h5></div>
+                    <div><a href="mailto:acckoibots8230@gmail.com" target="_blank" draggable="false" rel="noopener nofollow" style="text-decoration: none;">acckoibots8230@gmail.com</a></div>
+                    <div><a href="https://instagram.com/koibots/" target="_blank" style="text-decoration: none;">Instagram</a></div>
+                    <div><a href="https://youtube.com/@KoiBots8230" target="_blank" style="text-decoration: none;">Youtube</a></div
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
