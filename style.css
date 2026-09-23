@@ -157,3 +157,12 @@ h1, h2{
 .crab-card .card-title{
     color: #01013f;
 }
+
+/* TABLE */
+.table{
+    --bs-table-color: white;
+    --bs-table-bg: #9059BB;
+    --bs-table-border-color: #fff;
+    --bs-table-accent-bg: #0000;
+    --bs-table-striped-color: white;
+}
