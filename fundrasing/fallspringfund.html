@@ -13,6 +13,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #ffe5c3;
+        }
+        a {
+            color: #01013f;
+        }
+    </style>
 </head>
 
 <body>
@@ -69,81 +77,59 @@
     </div>
 </nav>
 
-    <!-- TITLE -->
+    <!--         HERO             -->
+    <div class="position-relative text-white text-center">
+        <img class="img-fluid w-100" src="../Images/yardjobpic.png" alt="Yard Job">
 
-    <div class="container text-center my-5">
-        <div class="d-flex justify-content-center align-items-center gap-3">
-            <img src="../Images/greyfishleft.png" alt="Grey Fish Left">
-            <h1 class="m-0">Spring Fundraiser</h1>
-            <img src="../Images/greyfishright.png" alt="Grey Fish Right">
+        <!-- text over image -->
+        <div class="position-absolute top-50 start-50 translate-middle w-100 px-3" style="margin-top: -60px;">
+            <h1 class="fw-bold display-4">Fundraising</h1>
         </div>
     </div>
 
     <!-- BOXES -->
-
-    <div class="container text-center">
+    <div class="container my-5">
         <div class="row">
-            <div class="col"></div>
-                <div class="col-6">
-                    <div class="card card-body shadow-sm border-0 rounded-pill mb-5">
-                        <h5 class="card-title text-dark mb-1">What We Do</h5>
-                        <p class="card-text text-muted mb-0">we do stuff</p>
+            <div class="col">
+                <div class="card shadow p-3 bg-body-tertiary rounded vision-card">
+                    <div class="card-body text-center">
+                        <h2 class="card-title mb-3">Why It's Important</h2>
+                        <h5 class="card-text">Fundraising is essential to keep our robotics team
+                        thriving. Building robots and maintaining the team is a
+                        significant financial challenge. Last season, we spent over
+                        $35,000, and our goal this fall is to raise enough to
+                        ensure a strong foundation for next year. Your donations
+                        directly support our goal, providing a free, fun, hands-on
+                        STEM experience for dozens of students each year.</h5>
                     </div>
-                </div>
-                <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col-6">
-                <div class="card card-body shadow-sm border-0 rounded-pill mb-5">
-                    <h5 class="card-title text-dark mb-1">Times/Dates</h5>
-                    <p class="card-text text-muted mb-0">never</p>
-                </div>
-            </div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col">
-                Email
-            </div>
-            <div class="col-6 mb-5">
-                <img src="../Images/qrcode.png" alt="help" style="height: 250px;">
-                <div><a class="mb-5" href="../contactus/contactus.html">Theres also a link</a></div>
-            </div>
-            <div class="col">
-                $Amount
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col">
-                <div class="mb-5">
-                    <h2>Why It's Important</h2>
-                    <p class="text-start">Fundraising is essential to keep our robotics team
-                    thriving. Building robots and maintaining the team is a
-                    significant financial challenge. Last season, we spent over
-                    $35,000, and our goal this fall is to raise enough to
-                    ensure a strong foundation for next year. Your donations
-                    directly support our goal, providing a free, fun, hands-on
-                    STEM experience for dozens of students each year.</p>
                 </div>
             </div>
             <div class="col">
                 <div id="homepage" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="../Images/before.JPG" class="d-block w-100" alt="Before">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/after.JPG" class="d-block w-100" alt="After">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/erin.JPG" class="d-block w-100" alt="Erin">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/yardgroup.jpeg" class="d-block w-100" alt="Yard Group">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/closeupjob.jpeg" class="d-block w-100" alt="Close up of people">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/squating.png" class="d-block w-100" alt="Taking a break">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Images/dead.png" class="d-block w-100" alt="Person dead?">
+                        </div>
                         <div class="carousel-item active">
-                            <img src="../Images/flag.jpg" class="d-block w-100" alt="Flag">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/highfives.jpg" class="d-block w-100" alt="High fiving people">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/2023inspect.jpg" class="d-block w-100" alt="Inspecting the robot">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/charshark.jpeg" class="d-block w-100" alt="charlotte in the shark">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../Images/kayafunny.jpg" class="d-block w-100" alt="Kaya Doing funny things">
+                            <img src="../Images/babyjake.png" class="d-block w-100" alt="Baby Jake">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#homepage"
@@ -160,6 +146,54 @@
             </div>
         </div>
     </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded mision-card">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">What You Get</h4>
+                        <h5>4 kids come to your house and do yard work (weeding, raking
+                            mulching, lawn mowing, pressure washing etc)</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded mision-card">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Price</h4>
+                        <h5>Minimum donation: $275 <br> Higher amounts are welcome!</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded mision-card">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Location</h4>
+                        <h5>Anwhere in Arlington, Va or very close by</h5>
+                    </div>
+                </div>
+            </div>
+            <h5 class="text-center">Our yard jobs are booked in four-hour timeslots. If
+                you need a larger job done, you can book multiple, but do be advised that
+                we expect separate and full payments for each slot booked.</h5>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <img src="../Images/yardjobqr.png" alt="QR Code" style="height: 500px;">
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+                <a href="https://m.signupgenius.com/#!/showSignUp/10C044DAEA72EA1FAC70-65897691-koibots?useFullSite=false" target="_blank">
+                    <h2>Scan The QR Code Or Click This Link!</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- FOOTER -->
     <footer class="footer-custom text-lg-start">
