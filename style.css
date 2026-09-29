@@ -166,3 +166,7 @@ h1, h2{
     --bs-table-accent-bg: #0000;
     --bs-table-striped-color: white;
 }
+
+a{
+    color: white;
+}
